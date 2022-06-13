@@ -1,0 +1,1010 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: coolvetica, sans-serif;
+    font-style: normal;
+}
+
+p {
+
+    font-family: coolvetica, sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+}
+
+
+
+/* Navigation */
+
+.logo {
+    height: 50px;
+    width: 70%;
+    background: url(../images/logowit.svg) no-repeat;
+
+}
+
+.logo.stickyadd {
+    background: url(../images/logo.svg) no-repeat !important;
+
+}
+
+nav .navbar-brand {
+    height: auto;
+    width: 10%;
+
+}
+
+
+nav.r-nav {
+    background: transparent;
+    padding: 20px 0;
+    transition: .5s all;
+}
+
+
+nav .navbar-brand {
+    font-size: 1.875rem;
+    color: #fff;
+}
+
+nav .navbar-nav li a {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), ;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+nav .navbar-nav li {
+    margin-left: 15px;
+}
+
+nav.r-nav.stickyadd {
+    background: #fff !important;
+    padding: 15px 0;
+    box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.05);
+    transition: .5s all ease-in-out;
+}
+
+nav.stickyadd .navbar-brand {
+    color: #000;
+    font-size: 2.5rem;
+    transition: .5s all;
+}
+
+nav.stickyadd .navbar-nav .nav-link {
+    color: #000 !important;
+}
+
+.navbar .hamburger {
+    color: #fff;
+
+}
+
+nav.stickyadd .hamburger {
+    color: #000;
+}
+
+/* Header */
+
+header {
+    background: url(../images/bg.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header-content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-box {
+    max-width: 700px;
+    color: #fff;
+}
+
+.row h1 {
+    font-size: 10rem;
+
+}
+
+iframe .portofolio {
+    padding-bottom: 10%;
+}
+
+
+
+.row p {
+    font-size: 2.25rem;
+}
+
+
+.content-box h1 {
+    font-size: 3.25rem;
+}
+
+.content-box a {
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 5px 25px;
+}
+
+.content-box a:hover {
+    color: #000;
+    background-color: #fff;
+    transition: 0.7s all;
+}
+
+.about {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6D7EF7;
+    font-family: coolvetica;
+}
+
+.row img {
+    position: absolute;
+    top: 150%;
+    transform: translate(0%, -50%);
+}
+
+
+.row h1 {
+    position: relative;
+    text-align: center;
+}
+
+.row p {
+    position: relative;
+    text-align: center;
+
+}
+
+.name {
+    color: #E96F85;
+}
+
+/* About Me */
+
+.about li a {
+    color: #000;
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+    font-size: 20px;
+    border: 2px solid #d4d4d4;
+    border-radius: 50%;
+    line-height: 40px;
+    transition: 0.5s all;
+    text-align: center;
+}
+
+.about li a:hover {
+    color: #EE8683;
+    border: 2px solid #EE8683;
+}
+
+.video {
+    height: 100vh;
+    padding: 3rem;
+    background-color: #FD98B6;
+    flex-direction: column;
+    font-size: 7rem;
+    align-items: center;
+
+}
+
+.video h6 {
+    padding-top: 0rem;
+    font-size: 7rem;
+}
+
+.video p {
+    font-size: 2rem;
+    color: white;
+}
+
+.animatie {
+    height: 100vh;
+    padding: 3rem;
+    background-color: #6D7EF7;
+
+}
+
+
+.content-box h4 {
+    font-size: 7rem;
+    padding-left: 11rem;
+    padding-bottom: 2rem;
+}
+
+.content-box p {
+    font-size: 1.5rem;
+    padding-left: 14rem;
+
+}
+
+}
+
+h1 {
+
+    padding-top: 10rem;
+}
+
+h6 {
+    background-color: #FD98B6;
+    padding-bottom: 0rem;
+    color: white;
+    font-size: 10rem;
+}
+
+.nanogallery2 {
+    border-style: none;
+}
+
+.portfolio {
+    font-family: coolvetica, sans-serif;
+    font-style: normal;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.portfolio h1 {
+    font-family: coolvetica, sans-serif;
+    font-style: normal;
+    font-size: 8rem;
+}
+
+.form {
+    padding-top: 10rem;
+    display: flex;
+    width: 100vw;
+}
+
+.color {
+    background-color: #FD98B6;
+    color: white;
+}
+
+.color p {
+    margin-bottom: 0px;
+}
+
+.port {
+    flex-direction: column;
+    background-color: #FD98B6;
+    color: white;
+    padding-bottom: 0;
+
+}
+
+.port h6 {
+    margin-bottom: 0;
+    font-family: coolvetica, sans-serif;
+    font-size: 10rem;
+    padding-left: 3rem;
+    padding-top: 0;
+}
+
+.form {
+    background-color: #FD98B6;
+    color: white;
+    margin-top: 0;
+    padding-bottom: 5rem;
+}
+
+.form p {
+    color: white;
+    text-decoration: underline;
+    background-color: #FD98B6;
+}
+
+.form h2 {
+    color: white;
+    font-size: 4rem;
+    padding-bottom: 1rem;
+    padding-top: 0.02rem;
+}
+
+.form h3 {
+    color: white;
+    font-size: 2rem;
+}
+
+
+
+.info_form {
+    background-color: #6D7EF7;
+    color: white;
+    display: flex;
+}
+
+.first_line {
+    align-items: flex-start;
+    margin-top: 10%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.first_line h1 {
+    font-size: 2.5rem;
+}
+
+
+.first_line h2 {
+    color: #FD98B6;
+    font-size: 2rem;
+}
+
+.first_line p {
+
+    font-size: 1rem;
+
+}
+
+.second_line {
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 10%;
+
+}
+
+.second_line h1 {
+    font-size: 2.5rem;
+
+}
+
+.second_line h2 {
+    color: #FD98B6;
+    font-size: 2rem;
+
+}
+
+.second_line p {
+
+    font-size: 1rem;
+
+}
+
+.third_line {
+    align-items: flex-end;
+    margin-top: 10%;
+    margin-left: 5%;
+    text-align: center;
+
+}
+
+.third_line h1 {
+    font-size: 2.5rem;
+
+}
+
+.third_line h2 {
+    color: #FD98B6;
+    font-size: 2rem;
+}
+
+.third_line p {
+    font-size: 1rem;
+
+}
+
+.copyright {
+    background-color: #6D7EF7;
+    color: white;
+    text-align: center;
+}
+
+.copyright h1 {
+    font-size: 1rem;
+    padding: 3rem;
+}
+
+.fab {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.right input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+label {
+
+    color: white;
+}
+
+.color {
+    padding-top: 25px;
+    padding-right: 750px;
+
+}
+
+.nanogallery2 {
+    rgba rgba(255, 255, 255, 1)
+}
+
+@media (max-width: 800px) {
+
+    .video p {
+        font-size: 1rem;
+        color: white;
+    }
+
+
+    .color {
+        padding-top: 20px;
+        padding-right: 430px;
+
+    }
+
+    .row h1 {
+        font-size: 5rem;
+
+    }
+
+    .row p {
+        font-size: 2rem;
+    }
+
+    .row img {
+        position: absolute;
+        top: 135%;
+        transform: translate(0%, -50%);
+    }
+
+    .about {
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .portfolio h1 {
+        font-family: coolvetica, sans-serif;
+        font-style: normal;
+        font-size: 5rem;
+    }
+
+    .form {
+        padding-top: 5rem;
+        display: flex;
+        width: 100vw;
+    }
+
+    .form h2 {
+        color: white;
+        font-size: 3rem;
+        padding-bottom: 1rem;
+        padding-top: 0.02rem;
+
+    }
+
+    .h1,
+    h1 {
+        font-size: 1rem;
+    }
+
+    .first_line {
+        align-items: flex-start;
+
+        margin-left: 5%;
+        text-align: center;
+    }
+
+    .second_line {
+        align-items: center;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+
+    .third_line {
+        align-items: flex-end;
+        margin-top: 10%;
+        margin-left: 5%;
+        text-align: center;
+
+    }
+
+    .h2,
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    .list-inline {
+        font-size: 0.5rem;
+    }
+
+    .list-inline-item {
+        font-size: 0.5rem;
+    }
+
+
+    .first_line p {
+
+        font-size: 1rem;
+    }
+
+    .second_line h1 {
+        font-size: 2.5rem;
+    }
+
+
+    .second_line h2 {
+        color: #FD98B6;
+        font-size: 2rem;
+    }
+
+    .second_line p {
+
+        font-size: 1rem;
+    }
+
+    .third_line h1 {
+        font-size: 2.5rem;
+    }
+
+
+    .third_line h2 {
+        color: #FD98B6;
+        font-size: 2rem;
+    }
+
+    .third_line p {
+
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .fab {
+    font-family: "Font Awesome 5 Brands";
+    font-size: 1rem;
+}
+
+
+    nav .navbar-brand {
+        font-size: 1.6rem;
+        color: #fff;
+    }
+
+
+
+    .row p {
+        font-size: 1rem;
+    }
+
+
+    .content-box h4 {
+        font-size: 4rem;
+        padding-left: 10rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .video p {
+        font-size: 0.75rem;
+        color: white;
+    }
+
+
+    .port h6 {
+        margin-bottom: 0;
+        font-family: coolvetica, sans-serif;
+        font-size: 5rem;
+        padding-left: 3rem;
+        padding-top: 0;
+    }
+
+
+    .color {
+        padding-top: 20px;
+        padding-right: 320px;
+
+    }
+
+    .row h1 {
+        font-size: 4rem;
+
+    }
+
+    .row p {
+        font-size: 1rem;
+    }
+
+    .row img {
+        position: absolute;
+        top: 135%;
+        transform: translate(0%, -50%);
+    }
+
+    .about {
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .portfolio h1 {
+        font-family: coolvetica, sans-serif;
+        font-style: normal;
+        font-size: 3rem;
+    }
+
+    .form {
+        padding-top: 5rem;
+        display: flex;
+        width: 100vw;
+    }
+
+    .form h2 {
+        color: white;
+        font-size: 1.7rem;
+        padding-bottom: 1rem;
+        padding-top: 0.02rem;
+
+    }
+
+    .form h3 {
+        color: white;
+        font-size: 1rem;
+    }
+
+    .h1,
+    h1 {
+        font-size: 1rem;
+    }
+
+    .first_line {
+        align-items: flex-start;
+
+        margin-left: 5%;
+        text-align: center;
+    }
+
+    .second_line {
+        align-items: center;
+        margin-top: 10%;
+        margin-left: 20%;
+        margin-right: 15%;
+    }
+
+    .third_line {
+        align-items: flex-end;
+        margin-top: 10%;
+        margin-left: 5%;
+        text-align: center;
+
+    }
+
+    .h2,
+    h2 {
+        font-size: 1rem;
+    }
+
+    .list-inline {
+        font-size: 1rem;
+    }
+
+    .first_line h1 {
+        font-size: 0.7rem;
+    }
+
+
+    .first_line h2 {
+        color: #FD98B6;
+        font-size: 1rem;
+    }
+
+    .first_line p {
+
+        font-size: 0.5rem;
+    }
+
+    .second_line h1 {
+        font-size: 0.5rem;
+    }
+
+
+    .second_line h2 {
+        color: #FD98B6;
+        font-size: 1rem;
+    }
+
+    .second_line p {
+
+        font-size: 0.5rem;
+    }
+
+    .third_line h1 {
+        font-size: 0.5rem;
+    }
+
+
+    .third_line h2 {
+        color: #FD98B6;
+        font-size: 0.7rem;
+    }
+
+    .third_line p {
+
+        font-size: 0.5rem;
+    }
+
+    .iframe-container iframe {
+        width: 40%;
+        height: 400;
+    }
+        .fab {
+    font-family: "Font Awesome 5 Brands";
+    font-size: 1rem;
+
+}
+
+.copyright h1 {
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+}
+
+@media (max-width: 365px) {
+
+    .video p {
+        font-size: 0.5rem;
+        color: white;
+    }
+
+
+    .color {
+        padding-top: 20px;
+        padding-right: 170px;
+
+    }
+
+    .row h1 {
+        font-size: 5rem;
+
+    }
+
+    .row p {
+        font-size: 2rem;
+    }
+
+    .row img {
+        position: absolute;
+        top: 135%;
+        transform: translate(0%, -50%);
+    }
+
+    .about {
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .portfolio h1 {
+        font-family: coolvetica, sans-serif;
+        font-style: normal;
+        font-size: 5rem;
+    }
+
+    .form {
+        padding-top: 5rem;
+        display: flex;
+        width: 100vw;
+    }
+
+    .form h2 {
+        color: white;
+        font-size: 3rem;
+        padding-bottom: 1rem;
+        padding-top: 0.02rem;
+
+    }
+
+    .h1,
+    h1 {
+        font-size: 1rem;
+    }
+
+    .first_line {
+        align-items: flex-start;
+
+        margin-left: 5%;
+        text-align: center;
+    }
+
+    .second_line {
+        align-items: center;
+        margin-top: 24%;
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+
+    .third_line {
+        align-items: flex-end;
+        margin-top: 10%;
+        margin-left: 5%;
+        text-align: center;
+
+    }
+
+    .h2,
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    .list-inline {
+        font-size: 1rem;
+    }
+
+    .video {
+        width: 100%;
+        height: 60;
+    }
+        .fab {
+    font-family: "Font Awesome 5 Brands";
+    font-size: 0.5rem;
+
+}
+
+.copyright h1 {
+    font-size: 0.5rem;
+    padding: 1rem;
+}
+
+}
+
+@media (max-width: 365px) {
+
+    nav .navbar-brand {
+        font-size: 1.6rem;
+        color: #fff;
+    }
+
+
+    .first_line {
+        align-items: flex-start;
+        margin-left: 5%;
+
+    }
+
+    .second_line {
+        align-items: center;
+        margin-top: 10%;
+        margin-left: 14%;
+        margin-right: 5%;
+    }
+
+    .third_line {
+        align-items: flex-end;
+        margin-top: 10%;
+        margin-left: 5%;
+        text-align: center;
+    }
+
+    .first_line h1 {
+        font-size: 0.7rem;
+    }
+
+
+    .first_line h2 {
+        color: #FD98B6;
+        font-size: 1rem;
+    }
+
+    .first_line p {
+
+        font-size: 0.5rem;
+    }
+
+    .second_line h1 {
+        font-size: 0.5rem;
+    }
+
+
+    .second_line h2 {
+        color: #FD98B6;
+        font-size: 1rem;
+    }
+
+    .second_line p {
+
+        font-size: 0.5rem;
+    }
+
+    .third_line h1 {
+        font-size: 0.5rem;
+    }
+
+
+    .third_line h2 {
+        color: #FD98B6;
+        font-size: 0.7rem;
+    }
+
+    .third_line p {
+
+        font-size: 0.5rem;
+    }
+
+    .fab {
+        color: white;
+        font-size: 0.5rem;
+    }
+
+    .form {
+        padding-right: 10%;
+    }
+
+    .left h2 {
+        font-size: 2rem;
+    }
+
+    .form {
+        padding-top: 5%;
+
+    }
+
+    .video {
+        width: 50%;
+        height: 60;
+    }
+
+       .fab {
+    font-family: "Font Awesome 5 Brands";
+    font-size: 0.5rem;
+
+}
+
+.copyright h1 {
+    font-size: 0.5rem;
+    padding: 1rem;
+}
+
+
+
+}
